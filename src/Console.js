@@ -6,7 +6,7 @@ import MapConsoleOutput from "./MapConsoleOutput";
 const Console = () => {
   const inputText = React.useRef();
 
-  const [consoleOutput, onEnter] = UseOnEnter([]);
+  const [consoleOutput, onEnter] = UseOnEnter();
 
   React.useEffect(() => {
     inputText.current.value = "";
